@@ -12,4 +12,4 @@ def index():
     return render_template("Acervo.html", ip = ip)
 
 if __name__ == "__main__":
-    application.run(port=80)
+    application.run()
